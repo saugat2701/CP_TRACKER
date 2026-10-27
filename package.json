@@ -1,0 +1,12 @@
+{
+  "name": "cp-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "start": "npm run start --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
